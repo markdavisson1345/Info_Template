@@ -9,7 +9,7 @@ void main() => runApp(MyPortfolioApp());
 
 class MyPortfolioApp extends StatelessWidget {
   @override
-  Widget buil(BuildContext context) {
+  Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'TSA Portfolio',
