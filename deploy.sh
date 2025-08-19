@@ -6,6 +6,7 @@ REPO_NAME="Info_Template"
 echo "🧹 Cleaning project..."
 flutter clean
 
+#Change repo name to YOUR REPO's name
 echo "🔨 Building Flutter web with base href /$REPO_NAME/ ..."
 flutter build web --base-href="/$REPO_NAME/"
 
@@ -21,4 +22,5 @@ git commit -m "Deploy updated build"
 git push
 
 echo "✅ Deployment complete! Check your site at:"
+#Change repo name to YOUR REPO's name
 echo "https://<your-github-username>.github.io/$REPO_NAME/"
